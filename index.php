@@ -140,9 +140,9 @@
                 <div class="card">
                   <div class="card-image orange lighten-2 waves-effect waves-block waves-light">
                     <noscript>
-                      <img class="activator" src="assets/picto-pig.png"> 
+                      <img class="activator" src="assets/picto-pig.png" alt="Abordable"> 
                     </noscript>
-                    <img data-src="assets/picto-pig.png" class="activator" src="">
+                    <img data-src="assets/picto-pig.png" data-alt="Abordable" class="activator" src="">
                   </div>
                   <div class="card-content">
                     <h3 class="card-title activator">Abordable<i class="material-icons right">more_vert</i></h3>
@@ -167,9 +167,9 @@
               <div class="card">
                 <div id="target" class="teal lighten-3 card-image waves-effect waves-block waves-light">
                   <noscript>
-                    <img src="assets/picto-responsive.png" alt="">
+                    <img src="assets/picto-responsive.png" alt="Adaptatif">
                   </noscript>
-    					    <img data-src="assets/picto-responsive.png" src="" alt="">
+    					    <img data-src="assets/picto-responsive.png" data-alt="Adaptatif" src="" alt="">
                 </div>
                 <div class="card-content">
                   <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
@@ -184,9 +184,9 @@
               <div class="card">
                 <div class="card-image  red accent-2 waves-effect waves-block waves-light">
                   <noscript>
-                    <img class="activator" src="assets/picto-perso.png">
+                    <img class="activator" src="assets/picto-perso.png" alt="Evolutif">
                   </noscript>
-                  <img data-src="assets/picto-perso.png" class="activator" src="">
+                  <img data-src="assets/picto-perso.png" data-alt="Evolutif" class="activator" src="">
                 </div>
                 <div class="card-content">
                   <h3 class="card-title activator">Evolutif<i class="material-icons right ">more_vert</i></h3>
@@ -216,7 +216,7 @@
                 <noscript>
                   <img width="80px;" src="assets/picto-shop-2.png" alt="Parlez de vous">
                 </noscript>
-                <img data-src="assets/picto-shop-2.png" width="80px;" src="" alt="Parlez de vous">
+                <img data-src="assets/picto-shop-2.png" data-alt="Parlez de vous" width="80px;" src="" alt="">
     					</div>
               <p>Où vous trouver, comment vous contacter, êtes-vous ouvert aujourd'hui ?<br/>
               Autant d'informations que vos futurs clients doivent trouver rapidement, parce que c'est ça qu'ils cherchent !
@@ -227,7 +227,7 @@
                 <noscript>
                   <img width="80px;" src="assets/picto-shop-2.png" alt="Parlez de ce que vous faites">
                 </noscript>
-                <img data-src="assets/picto-shop-2.png" width="80px;" src="" alt="Parlez de ce que vous faites">
+                <img data-src="assets/picto-shop-2.png" data-alt="Parlez de ce que vous faites" width="80px;" src="" alt="">
               </div>
               <div>
                 <p>Que faites vous et pourquoi le faites vous si bien ?<br/>
@@ -294,15 +294,15 @@
             <div class="separator col s2 offset-s5 divider"></div>
             <div class="col s12 m6 center-align">
               <noscript>
-                <img src="assets/lio.png" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+                <img src="assets/lio.png" alt="Lionel - développement" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
               </noscript>
-           	 <img data-src="assets/lio.png" src="" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+           	 <img data-src="assets/lio.png" data-alt="Lionel - développement" src="" alt="" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
             </div>
             <div class="col s12 m6 center-align ">
               <noscript>
-                <img src="assets/mi.png" alt="" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+                <img src="assets/mi.png" alt="Mylène - graphisme et intégration" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
               </noscript>
-           	  <img data-src="assets/mi.png" src="" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
+           	  <img data-src="assets/mi.png" data-alt="Mylène - graphisme et intégration" src="" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
             </div>
           </div>
           <div class="center-align social col m4  s12">
@@ -312,11 +312,11 @@
               <noscript>
                 <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
               </noscript>
-              <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img data-src="assets/logo-fb.png" src="" alt="Suivez-nous sur Facebook"></a>
+              <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img data-src="assets/logo-fb.png" data-alt="Suivez-nous sur Facebook" src="" alt=""></a>
               <noscript>
                 <a href="https://twitter.com/cooldev_crew" target="_blank" ><img src="assets/logo-twitter.png" alt="Suivez-nous sur Twitter"></a>
               </noscript>
-              <a href="https://twitter.com/cooldev_crew" target="_blank" ><img data-src="assets/logo-twitter.png" src="" alt="Suivez-nous sur Twitter"></a>
+              <a href="https://twitter.com/cooldev_crew" target="_blank" ><img data-src="assets/logo-twitter.png" data-alt="Suivez-nous sur Twitter" src="" alt=""></a>
             </div>
           </div>
           <div class="center-align col m4 s12">

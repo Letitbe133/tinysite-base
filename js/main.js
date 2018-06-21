@@ -67,11 +67,13 @@ window.addEventListener('scroll', () => {
       // console.log(imgPosition)
 
     if (curPos>= (imgPosition - windowHeight)) {
-      var target = images[i].getAttribute('data-src')
+      var targetSrc = images[i].getAttribute('data-src')
+      var targetAlt = images[i].getAttribute('data-alt')
 
-      if(target.length>0) {
-        images[i].setAttribute('src',target)
+      if(targetSrc.length>0) {
+        images[i].setAttribute('src',targetSrc)
         images[i].setAttribute('data-src', '')
+        images[i].setAttribute('alt', targetAlt )
       }
     }
   }
