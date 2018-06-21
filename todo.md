@@ -6,3 +6,4 @@
 - Minifier css inline
 - Création du fichier .htaccess
 - Appel Ajax formulaire de contact
+- Modifier l'icone de fermeture des cartes
