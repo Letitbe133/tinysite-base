@@ -1,0 +1,89 @@
+/* Main css */
+body {
+  font-family: 'Roboto', 'sans-serif'
+}
+
+h1, h2 {
+  font-size: 1.8rem;
+}
+
+nav ul a {
+  font-size: 1.3rem;
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  display: flex;
+  background-image: url("../assets/bg_desktop.jpeg");
+  background-size: cover;
+  background-position:center center;
+  height: 110vh;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav-overlay {
+  z-index: 996;
+}
+
+.active-menu {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.logo {
+	z-index: 2;
+}
+
+.content {
+  margin: auto;
+  z-index: 2;
+}
+
+.social a {
+	padding: 5px;
+}
+
+#section1 p {
+	font-size: 1rem;
+}
+
+#section1, #section2, #contact {
+padding: 50px 0;
+/* padding-bottom: 50px; */
+}
+.card li {
+	list-style-image: url(../assets/picto-check.png);
+	margin-left: 25px;
+}
+
+.activator img {
+	margin: 30px;
+}
+
+.separator {
+	margin-bottom: 30px;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+
+footer p {
+	font-size: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  header {
+    background-image: url("../assets/bg_mobile.jpeg");
+  }
+}
