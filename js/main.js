@@ -64,7 +64,7 @@ window.addEventListener('scroll', () => {
 
   for (var i=0; i<imgLength; i++) {
       imgPosition = images[i].offsetTop
-      console.log(imgPos)
+      // console.log(imgPosition)
 
     if (curPos>= (imgPosition - windowHeight)) {
       var target = images[i].getAttribute('data-src')
