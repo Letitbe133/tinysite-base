@@ -66,6 +66,13 @@ padding: 50px 0;
 	margin-left: 25px;
 }
 
+.card-reveal+i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
 .activator img {
 	margin: 30px;
 }

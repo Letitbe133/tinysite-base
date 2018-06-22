@@ -56,15 +56,15 @@ document.addEventListener('DOMContentLoaded', function() {
   // Implémentation lazyload
 
 var windowHeight = window.outerHeight,
-    images    = document.querySelectorAll("img[data-src]"),
+    // on cible uniquement les images qui ont une classe .lazy
+    images    = document.querySelectorAll(".lazy"),
     imgLength = images.length
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', function() {
     var curPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
 
   for (var i=0; i<imgLength; i++) {
       imgPosition = images[i].offsetTop
-      // console.log(imgPosition)
 
     if (curPos>= (imgPosition - windowHeight)) {
       var targetSrc = images[i].getAttribute('data-src')
@@ -72,7 +72,6 @@ window.addEventListener('scroll', () => {
 
       if(targetSrc.length>0) {
         images[i].setAttribute('src',targetSrc)
-        images[i].setAttribute('data-src', '')
         images[i].setAttribute('alt', targetAlt )
       }
     }

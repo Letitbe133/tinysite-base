@@ -6,72 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=yes">
     <!-- CSS au-dessus de la ligne de flotaison -->
     <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-      }
-      a, a:active, a:visited {
-        text-decoration: none;
-      }
-      .navbar-fixed {
-        height: 64px;
-      }
-      nav {
-        position: fixed;
-        width: 100%;
-        height: 64px;
-        line-height: 64px;
-        z-index: 997;
-      }
-      nav ul {
-        margin: 0;
-        float: right;
-        list-style: none;
-      }
-      nav ul li {
-        display: inline-block;
-      }
-      nav li a {
-        color: white;
-        font-size: 1.2rem;
-        height: 64px;
-        line-height: 64px;
-        padding: 15px;
-
-      }
-      .nav-wrapper {
-        background-color: #00838f;
-        position: relative;
-        height: 100%;
-      }
-      header {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url("assets/bg_mobile.jpeg");
-        background-size: cover;
-        background-position: center center;
-        height: 95vh;
-      }
-      .content {
-        width: 80%;
-        color: white;
-        text-align: center;
-      }
-      @media only screen and (min-width: 992px) {
-        #mobile-menu {
-        display: none;
-        }
-        .sidenav-trigger {
-          display: none;
-        }
-        header {
-          background-image: url("assets/bg_desktop.jpeg");
-        }
-      }
+      html,body{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}a,a:active,a:visited{text-decoration:none}.navbar-fixed{height:64px}nav{position:fixed;width:100%;height:64px;line-height:64px;z-index:997}nav ul{margin:0;float:right;list-style:none}nav ul li{display:inline-block}nav li a{color:white;font-size:1.2rem;height:64px;line-height:64px;padding:15px}.nav-wrapper{background-color:#00838f;position:relative;height:100%}header{position:relative;display:flex;justify-content:center;align-items:center;background-image:url(assets/bg_mobile.jpeg);background-size:cover;background-position:center center;height:95vh}.content{width:80%;color:white;text-align:center}@media only screen and (min-width:992px){#mobile-menu{display:none}.sidenav-trigger{display:none}header{background-image:url(assets/bg_desktop.jpeg)}}
     </style>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -140,15 +75,16 @@
                 <div class="card">
                   <div class="card-image orange lighten-2 waves-effect waves-block waves-light">
                     <noscript>
-                      <img class="activator" src="assets/picto-pig.png" alt="Abordable"> 
+                      <img src="assets/picto-pig.png" alt="Abordable"> 
                     </noscript>
-                    <img data-src="assets/picto-pig.png" data-alt="Abordable" class="activator" src="">
+                    <img data-src="assets/picto-pig.png" data-alt="Abordable" class="activator lazy" src="">
                   </div>
                   <div class="card-content">
                     <h3 class="card-title activator">Abordable<i class="material-icons right">more_vert</i></h3>
                   </div>
         					<div class="card-reveal">
-                    <h4 class="card-title">A partir de 349 € ht <i class="material-icons right">close</i></h4>
+                    <i class="material-icons right card-title">close</i>
+                    <h4 class="card-title">A partir de 349 € ht</h4>
                     <h5>Inclus : </h5>
                     <ul>
                     	<li>Hébergement pendant 1 an</li>
@@ -169,13 +105,14 @@
                   <noscript>
                     <img src="assets/picto-responsive.png" alt="Adaptatif">
                   </noscript>
-    					    <img data-src="assets/picto-responsive.png" data-alt="Adaptatif" src="" alt="">
+    					    <img data-src="assets/picto-responsive.png" data-alt="Adaptatif" src="" alt="" class="activator lazy">
                 </div>
                 <div class="card-content">
                   <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
                 </div>
                 <div class="card-reveal">
-                  <h4 class="card-title">Le TinySite est responsive<i class="material-icons right">close</i></h4>
+                  <i class="material-icons right card-title">close</i>
+                  <h4 class="card-title">Le TinySite est responsive</h4>
                   <p>La moitié des internaute vous cherchent depuis leur mobile. Le TinySite s'adapte à tous les supports.</p>
                 </div>
               </div>
@@ -184,16 +121,16 @@
               <div class="card">
                 <div class="card-image  red accent-2 waves-effect waves-block waves-light">
                   <noscript>
-                    <img class="activator" src="assets/picto-perso.png" alt="Evolutif">
+                    <img src="assets/picto-perso.png" alt="Evolutif">
                   </noscript>
-                  <img data-src="assets/picto-perso.png" data-alt="Evolutif" class="activator" src="">
+                  <img data-src="assets/picto-perso.png" data-alt="Evolutif" class="activator lazy" src="">
                 </div>
                 <div class="card-content">
                   <h3 class="card-title activator">Evolutif<i class="material-icons right ">more_vert</i></h3>
                 </div>
                 <div class="card-reveal">
-                <!-- <i class="material-icons right card-title" style="position: absolute; top: 0; right: 0; padding: 10px;">close</i> -->
-                  <h4 class="card-title">Vos besoins évoluent ?<i class="material-icons right">close</i></h4>
+                <i class="material-icons right card-title">close</i>
+                  <h4 class="card-title">Vos besoins évoluent ?</h4>
                   <p>Votre site web vous suit ! Rajouter des sections, des pages...<br>Contactez-nous, nous vous proposerons des solutions adaptées.</p>
                 </div>
               </div>
@@ -216,7 +153,7 @@
                 <noscript>
                   <img width="80px;" src="assets/picto-shop-2.png" alt="Parlez de vous">
                 </noscript>
-                <img data-src="assets/picto-shop-2.png" data-alt="Parlez de vous" width="80px;" src="" alt="">
+                <img class="lazy" data-src="assets/picto-shop-2.png" data-alt="Parlez de vous" width="80px;" src="" alt="">
     					</div>
               <p>Où vous trouver, comment vous contacter, êtes-vous ouvert aujourd'hui ?<br/>
               Autant d'informations que vos futurs clients doivent trouver rapidement, parce que c'est ça qu'ils cherchent !
@@ -227,7 +164,7 @@
                 <noscript>
                   <img width="80px;" src="assets/picto-shop-2.png" alt="Parlez de ce que vous faites">
                 </noscript>
-                <img data-src="assets/picto-shop-2.png" data-alt="Parlez de ce que vous faites" width="80px;" src="" alt="">
+                <img class="lazy" data-src="assets/picto-shop-2.png" data-alt="Parlez de ce que vous faites" width="80px;" src="" alt="">
               </div>
               <div>
                 <p>Que faites vous et pourquoi le faites vous si bien ?<br/>
@@ -294,15 +231,15 @@
             <div class="separator col s2 offset-s5 divider"></div>
             <div class="col s12 m6 center-align">
               <noscript>
-                <img src="assets/lio.png" alt="Lionel - développement" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+                <img src="assets/lio.png" alt="Lionel - développement" width="60px;">
               </noscript>
-           	 <img data-src="assets/lio.png" data-alt="Lionel - développement" src="" alt="" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+           	 <img class="lazy" data-src="assets/lio.png" data-alt="Lionel - développement" src="" alt="" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
             </div>
             <div class="col s12 m6 center-align ">
               <noscript>
-                <img src="assets/mi.png" alt="Mylène - graphisme et intégration" width="60px;"><p class="center-align grey-text text-lighten-4">lionel@cooldev.xyz</p>
+                <img src="assets/mi.png" alt="Mylène - graphisme et intégration" width="60px;">
               </noscript>
-           	  <img data-src="assets/mi.png" data-alt="Mylène - graphisme et intégration" src="" alt=""width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
+           	  <img class="lazy" data-src="assets/mi.png" data-alt="Mylène - graphisme et intégration" src="" alt="" width="60px;"><p class="center-align grey-text text-lighten-4">mylene@cooldev.xyz</p>
             </div>
           </div>
           <div class="center-align social col m4  s12">
@@ -312,11 +249,11 @@
               <noscript>
                 <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
               </noscript>
-              <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img data-src="assets/logo-fb.png" data-alt="Suivez-nous sur Facebook" src="" alt=""></a>
+              <a href="https://www.facebook.com/cooldevcrew" target="_blank" ><img class="lazy" data-src="assets/logo-fb.png" data-alt="Suivez-nous sur Facebook" src="" alt=""></a>
               <noscript>
                 <a href="https://twitter.com/cooldev_crew" target="_blank" ><img src="assets/logo-twitter.png" alt="Suivez-nous sur Twitter"></a>
               </noscript>
-              <a href="https://twitter.com/cooldev_crew" target="_blank" ><img data-src="assets/logo-twitter.png" data-alt="Suivez-nous sur Twitter" src="" alt=""></a>
+              <a href="https://twitter.com/cooldev_crew" target="_blank" ><img class="lazy" data-src="assets/logo-twitter.png" data-alt="Suivez-nous sur Twitter" src="" alt=""></a>
             </div>
           </div>
           <div class="center-align col m4 s12">
