@@ -2,24 +2,25 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>TinySite</title>
+    <title>TinySite BASE</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=yes">
     <!-- CSS au-dessus de la ligne de flotaison -->
     <style>
       html,body{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}a,a:active,a:visited{text-decoration:none}.navbar-fixed{height:64px}nav{position:fixed;width:100%;height:64px;line-height:64px;z-index:997}nav ul{margin:0;float:right;list-style:none}nav ul li{display:inline-block}nav li a{color:white;font-size:1.2rem;height:64px;line-height:64px;padding:15px}.nav-wrapper{background-color:#00838f;position:relative;height:100%}header{position:relative;display:flex;justify-content:center;align-items:center;background-image:url(assets/bg_mobile.jpeg);background-size:cover;background-position:center center;height:95vh}.content{width:80%;color:white;text-align:center}@media only screen and (min-width:992px){#mobile-menu{display:none}.sidenav-trigger{display:none}header{background-image:url(assets/bg_desktop.jpeg)}}
     </style>
+    <!-- CSS au-dessus de la ligne de flotaison (FIN)-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
-  	<meta property="og:title" content="TinySite | Un site web simple et efficace, pour permettre à tous de faire grandir ses idées grâce au web">
-  	<meta property="og:site_name" content="TyniSite">
-  	<meta property="og:url" content="http://www.cooldev.xyz/TinySite">
-  	<meta property="og:description" content="Nous accompagnons les petites entreprises et les indépendants dans leur présence numérique">
+  	<meta property="og:title" content="">
+  	<meta property="og:site_name" content="">
+  	<meta property="og:url" content="">
+  	<meta property="og:description" content="">
   	<meta property="og:type" content="website">
-  	<meta property="og:image" content="http://projets.cooldev.xyz/nano/assets/og-img.png">
+  	<meta property="og:image" content="">
   </head>
   <body >
 <!-- Menu -->
@@ -42,7 +43,8 @@
         </div>
       </nav>
     </div>
-<!-- Header -->
+    <!-- MENU -->
+<!-- HEADER -->
     <header>
       <div class="content">
         <div class="row">
@@ -61,7 +63,8 @@
       </div>
       <div class="overlay"></div>
     </header>
-<!-- Section 1 -->
+<!-- HEADER FIN -->
+<!-- SECTION1 -->
     <section id="section1" class="scrollspy">
           <div class="row">
             <div class="col s12 m8 offset-m2 ">
@@ -138,7 +141,8 @@
           </div>
     		</div>
     </section>
-<!-- Section 2 -->
+<!--SECTION1 FIN-->
+<!-- SECTION2 -->
     <section id="section2" class="cyan darken-2 scrollspy">
     	 <div class="container">
     	    <div class="row">
@@ -176,6 +180,7 @@
            </div>
           </div>
     </section>
+    <!--SECTION2 FIN-->
     <!-- Formulaire de contact -->
     <section id="contact" class="container scrollspy">
       <div class="col s12">
@@ -222,7 +227,9 @@
         </form>
       </div>
     </section>
-<!-- Footer -->
+    <!-- CONTACT FORM FIN-->
+<!--SECTION FOOTER-->
+  <!-- FOOTER -->
     <footer class="page-footer cyan darken-2 ">
       <div class="container  ">
         <div class="row ">
@@ -265,10 +272,13 @@
           </div>
         </div>
       </div>
+      <!-- FOOTER FIN-->
+      <!--FOOTER COPYRIGHT-->
       <div class="footer-copyright grey-text ">
         <div class="container ">
          <span class="cyan-text text-lighten-3">CC BY-NC-SA 4.0 - 2017 /</span> <a class="cyan-text text-lighten-3" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
           <a class="modal-trigger right cyan-text text-lighten-3" href="#modal1" >Mentions légales</a>
+          <!--MODAL-->
           <div id="modal1" class="modal modal-fixed-footer">
             <div class="modal-content">
               <h3>SIRET</h3>
@@ -284,8 +294,10 @@
             </div>
           </div>
         </div>
-      </div>
+        <!--MODAL FIN-->
+      </div><!--FOOTER COPYRIGHT FIN-->
     </footer>
+    <!--SECTION FOOTER FIN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     </script>
