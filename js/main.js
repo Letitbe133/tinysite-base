@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
       method: 'post',
       body: formData
     })
-      .then((response) => {
-        console.log(response.status)
-        response.text()
+      .then(res => {
+        console.log(res)
+        // response.text()
       })
-      .then((data) => {
+      .then(data => {
         console.log('Data returned', data)
       })
 
