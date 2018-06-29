@@ -6,7 +6,72 @@
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=yes">
     <!-- CSS au-dessus de la ligne de flotaison -->
     <style>
-      html,body{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}a,a:active,a:visited{text-decoration:none}.navbar-fixed{height:64px}nav{position:fixed;width:100%;height:64px;line-height:64px;z-index:997}nav ul{margin:0;float:right;list-style:none}nav ul li{display:inline-block}nav li a{color:white;font-size:1.2rem;height:64px;line-height:64px;padding:15px}.nav-wrapper{background-color:#00838f;position:relative;height:100%}header{position:relative;display:flex;justify-content:center;align-items:center;background-image:url(assets/bg_mobile.jpeg);background-size:cover;background-position:center center;height:95vh}.content{width:80%;color:white;text-align:center}@media only screen and (min-width:992px){#mobile-menu{display:none}.sidenav-trigger{display:none}header{background-image:url(assets/bg_desktop.jpeg)}}
+      html, body {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: sans-serif;
+        }
+        a, a:active, a:visited {
+          text-decoration: none;
+        }
+        .navbar-fixed {
+          height: 64px;
+        }
+        nav {
+          position: fixed;
+          width: 100%;
+          height: 64px;
+          line-height: 64px;
+          z-index: 997;
+        }
+        nav ul {
+          margin: 0;
+          float: right;
+          list-style: none;
+        }
+        nav ul li {
+          display: inline-block;
+        }
+        nav li a {
+          color: white;
+          font-size: 1.2rem;
+          height: 64px;
+          line-height: 64px;
+          padding: 15px;
+
+        }
+        .nav-wrapper {
+          background-color: #00838f;
+          position: relative;
+          height: 100%;
+        }
+        header {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url("assets/bg_mobile.jpeg");
+          background-size: cover;
+          background-position: center center;
+          height: 95vh;
+        }
+        .content {
+          width: 80%;
+          color: white;
+          text-align: center;
+        }
+        @media only screen and (min-width: 992px) {
+          #mobile-menu {
+          display: none;
+          }
+          .sidenav-trigger {
+            display: none;
+          }
+          header {
+            background-image: url("assets/bg_desktop.jpeg");
+          }
+        }    
     </style>
     <!-- CSS au-dessus de la ligne de flotaison (FIN)-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
