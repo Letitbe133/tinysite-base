@@ -82,7 +82,7 @@ window.addEventListener('scroll', function() {
   // Implementation Leaflet / Mapbox
 
   // création et positionnement de la carte
-  var clientMap = L.map('map').setView([51.505, -0.09], 13);
+  var clientMap = L.map('map', {scrollWheelZoom: false}).setView([51.505, -0.09], 13);
   // création et positionnement du marqueur
   var marker = L.marker([51.5, -0.09]).addTo(clientMap);
   // ajout du popup
