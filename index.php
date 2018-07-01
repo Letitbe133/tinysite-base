@@ -77,6 +77,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- CSS Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
@@ -246,6 +251,13 @@
           </div>
     </section>
     <!--SECTION2 FIN-->
+
+    <!-- SECTION MAP -->
+    <section>
+      <div id="map" style="height: 300px;"></div>
+    </section>
+    <!-- SECTION MAP FIN -->
+
     <!-- Formulaire de contact -->
     <section id="contact" class="container scrollspy">
       <div class="col s12">
@@ -364,6 +376,11 @@
     </footer>
     <!--SECTION FOOTER FIN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- script Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+   integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+   crossorigin=""></script>
+
     <script type="text/javascript" src="js/main.js"></script>
     </script>
   </body>

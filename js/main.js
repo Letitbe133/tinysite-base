@@ -79,4 +79,23 @@ window.addEventListener('scroll', function() {
 
 })
 
+  // Implementation Leaflet / Mapbox
+
+  // création et positionnement de la carte
+  var clientMap = L.map('map').setView([51.505, -0.09], 13);
+  // création et positionnement du marqueur
+  var marker = L.marker([51.5, -0.09]).addTo(clientMap);
+  // ajout du popup
+  marker.bindPopup("<b>Hello ! We are here");
+  // ajout du tooltip
+  marker.bindTooltip("Hello ! Come and visit us !");
+  // ajout du fond de carte mapbox
+  L.tileLayer('https://api.mapbox.com/styles/v1/letitbe133/cjj2sq3041yo62sn3tsa22aez/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGV0aXRiZTEzMyIsImEiOiJjajg3b2MydWMxM3hvMzJtcDZ6bHVlM3Y1In0.ltE1CivhBmTQXTEAA7r6NQ', {
+  // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+  maxZoom: 18,
+  id: 'mapbox.terminal',
+  accessToken: 'pk.eyJ1IjoibGV0aXRiZTEzMyIsImEiOiJjajg3b2MydWMxM3hvMzJtcDZ6bHVlM3Y1In0.ltE1CivhBmTQXTEAA7r6NQ'
+  }).addTo(clientMap);
+
 });
+
