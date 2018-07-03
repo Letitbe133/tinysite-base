@@ -97,5 +97,54 @@ window.addEventListener('scroll', function() {
   accessToken: 'pk.eyJ1IjoibGV0aXRiZTEzMyIsImEiOiJjajg3b2MydWMxM3hvMzJtcDZ6bHVlM3Y1In0.ltE1CivhBmTQXTEAA7r6NQ'
   }).addTo(clientMap);
 
+  // Implémentation Instagram
+
+  // Limite du nombre de photos affichées
+  var count = 5
+
+  // Récupération des photos récentes
+  fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=6218042681.0dc677e.6f2e6286a5cb495bbd885e2f44d4e561')
+    .then(result => result.json())
+    .then(datas => {
+      var photos = datas.data
+      photos.slice(0,count).map(photo => {
+        // console.log(photo)
+          displayPhotos(photo)
+      })
+    })
+
+  // Fonction d'affichage des photos
+  function displayPhotos(item) {
+    // DIV cible
+    var target = document.getElementById('instagram')
+
+    // Sélection de la photo à afficher en fonction de la taille de l'écran
+    var url
+    (window.innerWidth < 500 ) ? url= item.images.low_resolution.url : url = item.images.standard_resolution.url
+
+    // Conversion de la date de la photo
+    var timestamp = item.created_time
+    var date = new Date(timestamp *1000)
+    var year = date.getFullYear()
+    var month = date.getMonth()
+    var day = date.getDay()
+    var fullDate = `${day}/${month}/${year}`
+
+    // Template d'affichage des photos
+    var markup = `
+    <div class="card col s6 offset-s3">
+      <div class="card-image">
+        <img src="${url}" />
+      </div>
+      <div class="card-content">
+      <a href="${item.link}" target="blank">Voir sur Instagram</a>
+      <p>Aimé par ${item.likes.count} personnes</p>
+      <p>Photo prise le ${fullDate}</p>
+      </div>
+    </div>
+  `
+    target.innerHTML += markup
+  }
+
 });
 

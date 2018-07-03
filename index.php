@@ -258,6 +258,12 @@
     </section>
     <!-- SECTION MAP FIN -->
 
+    <!-- SECTION INSTAGRAM -->
+      <section id="instagram" class="row">
+
+      </section>
+    <!-- SECTION INSTAGRAM FIN -->
+
     <!-- Formulaire de contact -->
     <section id="contact" class="container scrollspy">
       <div class="col s12">
