@@ -1,3 +1,7 @@
+<?php
+  require_once('contact.php');
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -300,6 +304,20 @@
               <label for="message">Votre message</label>
             </div>
           </div>
+          <input type="text" hidden name="check">
+          <!-- Switch -->
+          <div class="switch">
+            <label>
+                Non
+                <input type="checkbox" name="consent_contact">
+                <span class="lever"></span>
+                Oui
+            </label>
+          </div>
+          <div class="col s12">
+            <p>En renseignant votre adresse mail, vous acceptez qu'il soit utilisé dans le cadre de relations commerciales.
+            </p>
+          </div>
           <div class="row">
             <div class="col s12 center-align">
               <button class="btn waves-effect waves-light cyan darken-3" id="submit" type="submit" name="submit">Envoyer
@@ -307,6 +325,9 @@
               </button>
             </div>
           </div>
+          <div id="feedback">
+            <?php echo $feedback; ?>
+  	      </div>
         </form>
       </div>
     </section>
