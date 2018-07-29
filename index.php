@@ -81,10 +81,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+
     <!-- CSS Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-   crossorigin=""/>
+   crossorigin=""/> -->
+
+   <!-- Fin CSS Leaflet -->
+
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -137,10 +143,10 @@
                   <div class="fixed-action-btn horizontal">
     			<a href='mailto:hello@cooldev.xyz' class="btn-floating btn-large red"><i class="material-icons">mail_outline</i></a>
    			 <ul>
-      			<li>
-  						<div class="chip">
+      			<li class="chip">
+  						<!-- <div class="chip"> -->
               hello@cooldev.xyz
-  						</div>
+  						<!-- </div> -->
         			</li>
     			</ul>
  			 </div><!--BUTTON-->
@@ -259,17 +265,26 @@
     </section>
     <!--SECTION2 FIN-->
 
-    <!-- SECTION MAP -->
+    <!-- SECTION 3 -->
     <section>
+
+      <!-- Option affichage carte Leaflet -->
       <div id="map" style="height: 300px;"></div>
+      <!-- Option Leaflet fin -->
+
+      <!-- Option affichage flux Instagram -->
+      <div id="instagram" class="row"></div>
+      <!-- Option Instagram fin -->
+
+      <!-- Option affichage témoignages -->
+      <div class="slider">
+        <ul class="slides"></ul>
+      </div>
+      <!-- Otion témoignages fin -->
+
     </section>
-    <!-- SECTION MAP FIN -->
+    <!-- SECTION3 FIN -->
 
-    <!-- SECTION INSTAGRAM -->
-      <section id="instagram" class="row">
-
-      </section>
-    <!-- SECTION INSTAGRAM FIN -->
 
     <!-- Formulaire de contact -->
     <section id="contact" class="container scrollspy">
@@ -406,10 +421,15 @@
     </footer>
     <!--SECTION FOOTER FIN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
     <!-- script Leaflet -->
-    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+
+    <!-- <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
-   crossorigin=""></script>
+   crossorigin=""></script> -->
+
+   <!-- Fin script Leaflet -->
 
     <script type="text/javascript" src="js/main.js"></script>
     </script>
