@@ -134,88 +134,91 @@
             <a href="https://twitter.com/cooldev_crew" target="_blank"><img class="responsive-img" src="assets/logo-twitter.png" alt="twitter"></a>
           </div>
         </div>
+                  <div class="fixed-action-btn horizontal">
+    			<a href='mailto:hello@cooldev.xyz' class="btn-floating btn-large red"><i class="material-icons">mail_outline</i></a>
+   			 <ul>
+      			<li>
+  						<div class="chip">
+              hello@cooldev.xyz
+  						</div>
+        			</li>
+    			</ul>
+ 			 </div><!--BUTTON-->
       </div>
       <div class="overlay"></div>
     </header>
 <!-- HEADER FIN -->
 <!-- SECTION1 -->
-    <section id="section1" class="scrollspy">
-          <div class="row">
-            <div class="col s12 m8 offset-m2 ">
-              <h2 class="center-align grey-text">Le TinySite est : </h2>
+<section id="section1" class="scrollspy">
+      <div class="row">
+        <div class="col s12 m8 offset-m2 separator">
+          <h2 class="center-align grey-text">Le TinySite, c'est un site web comme une carte de visite, mais en mieux !</h2>
+        </div>
+        </div><!--TITLE-->
+        <div class="row">
+        <div id="cards" class="col s12 l10 offset-l1">
+          <div class="col s12 m8 offset-m2 l4 ">
+            <div class="card">
+              <div class="card-image">
+                <img class="activator" src="assets/picto-pig.png" alt="Un site web abordable">
+                <span class="activator btn-floating halfway-fab waves-effect waves-light cyan darken-2"><i class="material-icons">add</i></span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title activator">Abordable</h3>
+              </div>
+					<div class="card-reveal">
+              <h4 class="card-title">A partir de 499 € ht <i class="material-icons right">close</i></h4>
+              <h5>Inclus : </h5>
+              <ul>
+              	<li>Hébergement pendant 1 an</li>
+              	<li>Nom de domaine "mon-domaine.tinysite.fr" inclus (possibilité de lier votre propre nom de domaine)</li>
+              </ul>
+              <h5>Options : </h5>
+					<ul>
+              	<li>Modifications : 49€ ht par modification</li>
+                <li>Hébergement : 49€ ht après la 1ère année</li>
+              	<li>Forfait maintenance : 89 € ht/an (hébergement et modifications de vos informations)</li>
+              </ul>
+              <p>Le TinySite que nous réalisons pour vous vous appartient. Vous pouvez à tout moment récuperer le code pour vous occuper vous-même de sa maintenance.</p>
+              </div>
             </div>
-            <div class="separator col s2 offset-s5 divider"></div>
+          </div><!--CARD 1-->
+        <div class="col s12 m8 offset-m2 l4 ">
+          <div class="card">
+            <div class="card-image">
+					<img  class="activator" src="assets/picto-responsive.png" alt="Un site web adaptatif">
+          <span class="activator btn-floating halfway-fab waves-effect waves-light cyan darken-2"><i class="material-icons">add</i></span>
+
+            </div>
+            <div class="card-content">
+              <h3 class="card-title activator">Multi-support</h3>
+            </div>
+            <div class="card-reveal">
+              <h4 class="card-title">TinySite est responsive<i class="material-icons right">close</i></h4>
+              <p>La moitié des internautes vous cherche depuis un mobile. Le TinySite s'adapte à la majorité des supports web actuels. </p>
+              </div>
           </div>
-            <div class="row">
-            <div id="cards" class="col s12 l10 offset-l1">
-              <div class="col s12 m4 ">
-                <div class="card">
-                  <div class="card-image orange lighten-2 waves-effect waves-block waves-light">
-                    <noscript>
-                      <img src="assets/picto-pig.png" alt="Abordable"> 
-                    </noscript>
-                    <img data-src="assets/picto-pig.png" data-alt="Abordable" class="activator lazy" src="">
-                  </div>
-                  <div class="card-content">
-                    <h3 class="card-title activator">Abordable<i class="material-icons right">more_vert</i></h3>
-                  </div>
-        					<div class="card-reveal">
-                    <i class="material-icons right card-title">close</i>
-                    <h4 class="card-title">A partir de 349 € ht</h4>
-                    <h5>Inclus : </h5>
-                    <ul>
-                    	<li>Hébergement pendant 1 an</li>
-                    	<li>Nom de domaine pendant 1 an</li>
-                    </ul>
-                    <h5>Options : </h5>
-        					  <ul>
-                    	<li>Modifications : 49€ ht par modification</li>
-                    	<li>Maintenance : 49€/an (hébergement et renouvellement du nom de domaine en .fr ou .com)</li>
-                    </ul>
-                    <p>Le TinySite que nous réalisons pour vous vous appartient. Vous pouvez à tout moment récuperer le code pour vous occuper vous-même de sa maintenance. Nous vous proposons même <a href="http://www.cooldev.xyz/formation-web.php" target="_blank"> une formation </a>pour ça !
-                  </div>
-                </div>
-              </div>
-            <div class="col s12 m4 ">
-              <div class="card">
-                <div id="target" class="teal lighten-3 card-image waves-effect waves-block waves-light">
-                  <noscript>
-                    <img src="assets/picto-responsive.png" alt="Adaptatif">
-                  </noscript>
-    					    <img data-src="assets/picto-responsive.png" data-alt="Adaptatif" src="" alt="" class="activator lazy">
-                </div>
-                <div class="card-content">
-                  <h3 class="card-title activator">Adaptatif<i class="material-icons right">more_vert</i></h3>
-                </div>
-                <div class="card-reveal">
-                  <i class="material-icons right card-title">close</i>
-                  <h4 class="card-title">Le TinySite est responsive</h4>
-                  <p>La moitié des internaute vous cherchent depuis leur mobile. Le TinySite s'adapte à tous les supports.</p>
-                </div>
-              </div>
+        </div><!--CARD 2-->
+        <div class="col s12 m8 offset-m2 l4 ">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="assets/picto-perso.png" alt="Un site web évolutif">
+              <span class="activator btn-floating halfway-fab waves-effect waves-light cyan darken-2"><i class="material-icons">add</i></span>
+
             </div>
-            <div class="col s12 m4 ">
-              <div class="card">
-                <div class="card-image  red accent-2 waves-effect waves-block waves-light">
-                  <noscript>
-                    <img src="assets/picto-perso.png" alt="Evolutif">
-                  </noscript>
-                  <img data-src="assets/picto-perso.png" data-alt="Evolutif" class="activator lazy" src="">
-                </div>
-                <div class="card-content">
-                  <h3 class="card-title activator">Evolutif<i class="material-icons right ">more_vert</i></h3>
-                </div>
-                <div class="card-reveal">
-                <i class="material-icons right card-title">close</i>
-                  <h4 class="card-title">Vos besoins évoluent ?</h4>
-                  <p>Votre site web vous suit ! Rajouter des sections, des pages...<br>Contactez-nous, nous vous proposerons des solutions adaptées.</p>
-                </div>
-              </div>
+            <div class="card-content">
+              <h3 class="card-title activator">Evolutif</h3>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Vos besoins évoluent ?<i class="material-icons right">close</i></span>
+              <p>Votre site web vous suit ! Ajouter des sections, des pages...<br>Contactez-nous, nous vous proposerons des solutions adaptées.</p>
             </div>
           </div>
-    		</div>
-    </section>
-<!--SECTION1 FIN-->
+      </div><!--CARD 3-->
+      </div>
+		</div><!--CARDS-->
+
+</section><!--SECTION 1 FIN-->
 <!-- SECTION2 -->
     <section id="section2" class="cyan darken-2 scrollspy">
     	 <div class="container">
@@ -380,7 +383,7 @@
       <!--FOOTER COPYRIGHT-->
       <div class="footer-copyright grey-text ">
         <div class="container ">
-         <span class="cyan-text text-lighten-3">CC BY-NC-SA 4.0 - 2017 /</span> <a class="cyan-text text-lighten-3" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
+        <span class="cyan-text text-lighten-3">CC BY-NC-SA 4.0 - 2018 / <a class="cyan-text text-lighten-3" href="http://www.mpaw.xyz/site-web.php" target="_blank">Mon Tinysite</a> par <a class="cyan-text text-lighten-3" href="http://www.mpaw.xyz/" target="_blank">Ma Petite Agence</a></span> 
           <a class="modal-trigger right cyan-text text-lighten-3" href="#modal1" >Mentions légales</a>
           <!--MODAL-->
           <div id="modal1" class="modal modal-fixed-footer">
