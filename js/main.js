@@ -61,28 +61,28 @@ document.addEventListener('DOMContentLoaded', function() {
   var options = {
     indicators: false,
     height: 200,
-    interval: 3000
+    interval: 3500
   }
   
   // Variable pour stocker les témoignages
   var testimonials = [
     {
-      author: 'Nom 1',
-      comment: 'Comment 1'
+      author: 'H. Jackson Brown, Jr.',
+      comment: 'The best preparation for tomorrow is doing your best today'
     },
     {
-      author: 'Nom 2',
-      comment: 'Comment 1'
+      author: 'Norman Vincent Peale',
+      comment: 'Change your thoughts and you change your world'
     },
     {
-      author: 'Nom 3',
-      comment: 'Comment 1'
+      author: 'Joseph Campbell',
+      comment: 'We must let go of the life we have planned, so as to accept the one that is waiting for us'
     }
   ]
   
   testimonials.forEach(function(testimonial) {
     var target = document.querySelector('.slides')
-    target.innerHTML += "<li><h4>" + testimonial.author + "</h4><p>" + testimonial.comment + "</p></li>"
+    target.innerHTML += "<li><div class='caption center-align'><h4>" + testimonial.author + "</h4><p ><i class='material-icons'>format_quote</i>" + testimonial.comment + "</p></div></li>"
   })
   
   // Initialisation du slider
